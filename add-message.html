@@ -7,7 +7,36 @@
     <section class="container">
       <h1 class="page-header">
         Add a message
-      </h1>
+        </h1><br>
+
+        <form class="form-inline" name="submit message"> 
+
+           <h3> Input Your Mesage Here</h3><br><br>
+
+            Name:<br>
+            <input type ="text" id="myname" name="commentuser"><br><br>
+
+            <hr>
+
+            Enter Your Comment:<br>
+            <input type ="text" id="message" name="MessageBox"><br><br>
+
+            <hr>
+
+            Is this Important:<br>
+            <input type ="checkbox" id="important" name="isimportant"<br><br>
+
+            <hr>
+
+            
+
+          <br> <input type ="button" onclick="addMessage()" value="Submit" name="PostMessage">
+           
+          
+        </form>
+
+
+
     </section>
     <script type="text/javascript" src="js/shared.js"></script>
     <script type="text/javascript" src="js/add-message.js"></script>

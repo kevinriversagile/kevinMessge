@@ -10,7 +10,47 @@
         <button class="btn btn-primary pull-right" type="button">Refresh</button>
         <button class="btn btn-success pull-right" type="button" onclick="addMessage()">Add a message</button>
       </h1>
-      <section id="messagesContainer"></section>
+      
+<table id="kevTable">
+ 
+  <table style="width: 100%">
+
+    <tr>
+      <th>Created By</th>
+      <th>Message</th>
+      <th>Important</th>
+    </tr>
+    
+    <tr>
+      <tr id="mine">
+          <td>cell1</td>
+          <td>cell2</td>
+          <td>cell3</td>
+    </tr>
+
+    <button onclick="getTable()">Click</button>
+
+    <script> 
+      function getTable() {
+        var table = document.getElementById('kevTable');
+        var row = table.insertRow(0);
+        var cell1 = row.insertCell(0);
+        cell1.innerHTML = "Works";
+
+        var row2 = document.getElementById('mine');
+        var x = row.insertCell(1);
+        x.innerHTML = "Keep Pushing";
+      }
+
+
+    </script>
+
+
+  </table>
+  
+
+
+      <!--<section id="messagesContainer"></section>-->
     </section>
     <div id="loading">
       <div class="loading-text">
@@ -23,3 +63,7 @@
     <script type="text/javascript" src="js/index.js"></script>
   </body>
 </html>
+
+
+
+  
