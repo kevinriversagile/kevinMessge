@@ -88,3 +88,6 @@ function showMessages(messages) {
 
 // This will make sure that all messages are loaded when page is loaded!
 getAllMessages();
+
+
+

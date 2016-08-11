@@ -1,5 +1,6 @@
 .page-header .btn-success {
   margin-right: 5px;
+  
 }
 
 #loading {
@@ -42,3 +43,28 @@
   font-size: 12px;
   margin-top: 10px;
 }
+
+
+
+#kevTable td {
+  padding-right: 10px;
+}
+
+#kevTable td button {
+  margin-right: 5px;
+}
+
+.label-danger{
+margin-left:  25px;
+margin-right: 25px;
+
+
+}
+
+h1 {
+color: red;
+
+
+ }
+
+
